@@ -4,3 +4,5 @@ routes:
     weight: 50%
   simpleservice/simpleservice/simpleservice:1.0.0/web:
     weight: 50%
+    condition:
+      ref: only_firefox  
