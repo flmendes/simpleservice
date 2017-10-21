@@ -1,8 +1,10 @@
 name: simpleservice/simpleservice/web
 routes:
   simpleservice/simpleservice/simpleservice:1.1.0/web:
-    weight: 50%
+    weight: 10%
   simpleservice/simpleservice/simpleservice:1.0.0/web:
     weight: 50%
     condition:
       ref: only_firefox  
+  simpleservice/simpleservice/simpleservice:1.2.0/web:
+    weight: 40%

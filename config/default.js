@@ -4,7 +4,7 @@ config.bind = '0.0.0.0'
 config.port = 3000
 
 config.version = require('../package').version
-config.backgroundColour = process.env.SIMPLE_SERVICE_BGCOLOR || 'darkseagreen'
+config.backgroundColour = process.env.SIMPLE_SERVICE_BGCOLOR || 'red'
 config.heroText = process.env.SIMPLE_SERVICE_HERO_TEXT || 'But this is even better!'
 
 module.exports = config
